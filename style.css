@@ -94,11 +94,14 @@ body{
     background-size: contain;
     padding: 1.5rem;
     font-family: 'Poppins', sans-serif;
+    gap: 1rem;
 }
 
 main{
     text-align: center;
     color: white;
+    justify-content: center;
+    gap: 1rem;
 }
 
 header img{
@@ -110,8 +113,9 @@ main h1{
     font-size: 1.7rem;
 }
 
-main p{
-
+aside{
+    display: flex;
+    justify-content: center;
 }
 
 main a{
@@ -155,6 +159,7 @@ li{
     body{
         padding: 2rem 5rem;
         column-gap: 3rem;
+        background-image: url(images/bg-desktop.svg);
     }
 
     .template{

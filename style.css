@@ -163,7 +163,7 @@ li{
     }
 
     .template{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 60% 40%;
         grid-template-rows: 8rem auto auto;
     }
     .grid-area{
